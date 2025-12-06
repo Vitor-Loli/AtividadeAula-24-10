@@ -424,6 +424,9 @@ int main(void) {
             case 12:
                 exec12();
                 break;
+            case 13:
+                printf("Até logo\n");
+                break;
             default:
                 printf("Opção inválida!");
         }
